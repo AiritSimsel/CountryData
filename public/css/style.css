@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+body {
+    background-image: url(../img/imgbin_baltic-states-drawing-coloring-book-map-png.png) ;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: contain;
+    background-position: right;   
+
+   }
+
+h1{
+    font-family: 'Paytone One', sans-serif;
+}
+
+form{
+    font-family: 'Paytone One', sans-serif;
+}
+
+button{
+    font-family: 'Paytone One', sans-serif;
+    }
+option.est{
+    font-family: 'Paytone One', sans-serif;
+    color: blue;
+}
+option.lv{
+    font-family: 'Paytone One', sans-serif;
+    color:darkred;
+}
+option.lt{
+    font-family: 'Paytone One', sans-serif;
+    color:green;
+}
+
+p{
+    font-family: 'Paytone One', sans-serif;
+}
+
+li{
+    font-family: 'Paytone One', sans-serif;
+    line-height: 1.8;
+}
+
+select{
+    font-family: 'Paytone One', sans-serif;
+    font-weight: lighter;
+    color: black;
+}
+dl.currency{
+    font-family: 'Paytone One', sans-serif;
+    list-style-type: disc;
+    line-height: 0.6;
+}
+img{
+    height: 200px;
+    width: auto;
+    border-style: double;
+    border-color: black;
+}
+footer{
+    font-family: 'Paytone One', sans-serif;
+}

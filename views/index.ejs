@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Countries</title>
+</head>
+<body>
+    <h1>View country info</h1>
+
+    <form action="/" method="POST">
+        Select country:
+        <select name="country">
+            <option value=" "></option>
+            <option class="est" value="estonia">Estonia</option>
+            <option class="lv" value="latvia">Latvia</option>
+            <option class="lt" value="lithuania">Lithuania</option>
+        </select>
+        <button type="submit">Info</button>
+    </form>    
+
+    <p>Country info 
+        <li>Name: <%= CountryInfo.countryName %></li>
+        <li>Domain: <%= CountryInfo.countryDomain %></li>           
+        <li>Calling code: <%= CountryInfo.countryCallingCode %></li>            
+        <li>Capital: <%= CountryInfo.countryCapital %></li>            
+        <li>Region: <%= CountryInfo.countryRegion %></li>            
+        <li>Subregion: <%= CountryInfo.countrySubregion %></li>            
+        <li>Population: <%= CountryInfo.countryPopulation %></li>            
+        <li>Timezone: <%= CountryInfo.countryTimezone %></li>            
+        <li>Language: <%= CountryInfo.countryLanguage %></li>           
+        <li>Currency:</li>
+        <dl class="currency">Currency name: <%= CountryInfo.countryCurrency %></dl>
+        <dl class="currency">Currency code: <%= CountryInfo.countryCurrencyCode %></dl>
+        <dl class="currency">Currency symbol: <%= CountryInfo.countryCurrencySymbol %></dl>            
+        <li>Flag: 
+            <dl class="flag"><img src="<%= CountryInfo.countryFlag %>"></dl>
+        </li>                                   
+    </p>
+
+    <footer>
+        <span>Airit Simsel &#169; 2021</span>
+    </footer>
+
+</body>
+</html>
